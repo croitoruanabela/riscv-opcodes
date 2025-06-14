@@ -44,6 +44,7 @@ jobs:
         pip install --upgrade pip
         pip install --upgrade wheel
         pip install --upgrade seleniumbase
+        pip install --upgrade pymongo
         pip install --upgrade pyautogui
         pip install --upgrade python-xlib
     - name: Lint with flake8
