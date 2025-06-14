@@ -722,7 +722,7 @@ def test_full_account_creation_flow(self):
             inserted_id = insert_cookie(cookie_value)
 
 resolution = get_random_resolution()
-#start_warp()
+start_warp()
 with SB(uc=True, test=True) as sb:
     sb.set_window_size(resolution.width, resolution.height)
     test_full_account_creation_flow(sb)
